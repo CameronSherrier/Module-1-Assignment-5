@@ -16,9 +16,9 @@
     <!-- Navigation Bar -->
 
     <nav class="navbar navbar-expand bg-black">
-        <div class="container">
+        <div class="container-fluid">
             <a href="#" class="navbar-brand">Coding Gym</a>
-            <button type="button" class="btn btn-danger" data-bs-toggle="collapse" data-bs-target="#nav">Click Here</button>
+            <button type="button" class="btn btn-warning" data-bs-toggle="collapse" data-bs-target="#nav" aria-expanded="true" aria-controls="row">Click Here</button>
             <ul class="navbar-nav collapse" id="nav">
                 <li class="nav-item">
                     <a href="#" class="nav-link" style="color: orange; ">Home</a>
@@ -36,7 +36,7 @@
         </div>
     </nav>
 
-    <!-- Main Section -->
+    <!-- Top Section -->
 
     <section>
         <div class="container">
@@ -50,28 +50,57 @@
                     <i class="fa-solid fa-dumbbell" style="font-size: xx-large;"></i><h2>Join us today to see the changes you can make!</h2><i class="fa-solid fa-dumbbell" style="font-size: xx-large;"></i>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Middle Section -->
+
+    <section>
+        <div class="container" style="margin-top: 5%;">
             <div class="row">
-                <div class="col text-center" style="margin-top: 15%;">
-                    <div class="box"><h2 style="color: orange; margin-bottom: 10%;">Activities</h2></div>
-                    <img src="Local Gym Pictures/tennis-unsplash.jpg" alt="Man swinging tennis racket on tennis court">
-                    <p>With over 10 tennis courts to choose from!</p>
-                </div>
-                <div class="col text-center">
-                    <img src="Local Gym Pictures/steam_room-unsplash.jpg" alt="Picture of inside a steam room">
-                    <p>Three steam rooms for maximum room and comfort</p>
-                </div>
-                <div class="col text-center">
-                    <img src="Local Gym Pictures/pool-unsplash.jpg" alt="Picture of outdoor gym pool">
-                    <p>Immerse yourself in our heated outdoor pool or lounge after a hard day of working out</p>
+                <div class="col text-center" style="margin-top: 10px;">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 style="color: orange; margin-bottom: 10px;">Activities</h2>
+                        </div>
+                        <div class="card-body">
+                            <p><button type="button" class="btn btn-warning" data-bs-toggle="collapse" data-bs-target="#footer" aria-expanded="false" aria-controls="footer">See More</button></p>
+                        </div>
+                        <div class="card-footer collapse" id="footer">
+                            <img src="Local Gym Pictures/tennis-unsplash.jpg" alt="Man swinging tennis racket on tennis court">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 style="color: orange; margin-bottom: 10px;">Ammenities</h2>
+                        </div>
+                        <div class="card-body">
+                            <p><button type="button" class="btn btn-warning" data-bs-toggle="collapse" data-bs-target="#footer-2" aria-expanded="false" aria-controls="footer">See More</button></p>
+                        </div>
+                        <div class="card-footer collapse" id="footer-2">
+                            <img src="Local Gym Pictures/steam_room-unsplash.jpg" alt="Picture of inside a steam room">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 style="color: orange; margin-bottom: 10px;">Outdoors</h2>
+                        </div>
+                        <div class="card-body">
+                            <p><button type="button" class="btn btn-warning" data-bs-toggle="collapse" data-bs-target="#footer-3" aria-expanded="false" aria-controls="footer">See More</button></p>
+                        </div>
+                        <div class="card-footer collapse" id="footer-3">
+                            <img src="Local Gym Pictures/pool-unsplash.jpg" alt="Picture of outdoor gym pool">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Pricing Section -->
+    <!-- Bottom/Pricing Section -->
 
     <section>
-        <div class="container">
+        <div class="container" style="margin-top: 5%;">
             <div class="row">
                 <div class="col text-center text-danger">
                     <h2>Packages and Pricing</h2>
@@ -123,13 +152,20 @@
                     </tr>
                 </tbody>
             </table>
+        </div>
+    </section>
+
+    <!-- Main Page Footer -->
+
+    <footer>
+        <div class="container-fluid bg-black" style="margin-top: 5%; padding: 5px;">
             <div class="row">
                 <div class="col text-center">
-                    <button class="btn btn-primary">Join Today!</button>
+                    <button class="btn btn-warning btn-lg">Join Today!</button>
                 </div>
             </div>
         </div>
-    </section>
+    </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>

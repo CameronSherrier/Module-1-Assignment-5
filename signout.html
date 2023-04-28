@@ -9,70 +9,60 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="style.css">
-<title>Sign-In</title>
+<title>Sign-Out</title>
 </head>
 <body>
 
     <!-- Navigation Bar -->
 
     <nav class="navbar navbar-expand bg-black">
-        <div class="container-fluid">
-            <a href="#" class="navbar-brand">Coding Gym</a>
-            <button type="button" class="btn btn-warning" data-bs-toggle="collapse" data-bs-target="#nav" aria-expanded="true" aria-controls="row">Click Here</button>
-            <ul class="navbar-nav collapse" id="nav">
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link" style="color: orange; ">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="about.html" class="nav-link" style="color: orange;">About</a>
-                </li>
-                <li class="nav-item">
-                    <a href="signin.html" class="nav-link" style="color: orange;">Sign In</a>
-                </li>
-                <li class="nav-item">
-                    <a href="signout.html" class="nav-link" style="color: orange;">Sign Out</a>
-                </li>
-                <li class="nav-item">
-                    <a href="pricing.html" class="nav-link" style="color: orange;">Pricing</a>
-                </li>
-            </ul>
-        </div>
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">Coding Gym</a>
+                <button type="button" class="btn btn-warning" data-bs-toggle="collapse" data-bs-target="#nav" aria-expanded="true" aria-controls="row">Click Here</button>
+                <ul class="navbar-nav collapse" id="nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link" style="color: orange; ">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link" style="color: orange;">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="signin.html" class="nav-link" style="color: orange;">Sign In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="signout.html" class="nav-link" style="color: orange;">Sign Out</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="pricing.html" class="nav-link" style="color: orange;">Pricing</a>
+                    </li>
+                </ul>
+            </div>
     </nav>
-
-    <!-- Sign-In Middle -->
-
+    
+    <!-- Sign-Out Middle -->
+    
     <section>
-        <div class="container" style="margin-top: 10%;">
-            <div class="row text-center">
-                <div class="col">
-                    <H1>Welcome!</H1>
+            <div class="container text-center" style="margin-top: 10%;">
+                <div class="row mb-2">
+                    <h4>Come back soon!</h4>
+                </div>
+                <div class="row mb-2">
+                    <div class="col">
+                        <img src="Local Gym Pictures/exit_sign-unsplash.jpg" alt="Neon exit sign with arrow pointing down">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <button type="button" class="btn btn-warning btn-block">Sign out</button>
+                    </div>
                 </div>
             </div>
-            <div style="margin: 5%">
-                <form class="border border-3">
-                <div class="mb-3 mt-3">
-                    <label for="email" class="mb-2">Sign In</label>
-                    <input type="text" class="form-control" placeholder="Email..." style="width: 100%;"><br>
-                </div>
-                <div class="mb-3">
-                    <label for="password" class="mb-2">Password</label>
-                    <input type="text" class="form-control" placeholder="Password..." style="width: 100%;"><br>
-                </div>
-                <div class="form-check">
-                    <label class="form-check-label">
-                        <input type="checkbox" class="form-check-input" name="remember"> Remember Me
-                    </label>
-                </div>
-                <button class="btn btn-warning mt-3 mb-3">Submit</button>
-                </form>
-            </div>
-        </div>
     </section>
+    
+    
+    <!-- Sign-Out Footer -->
 
-
-    <!-- Sign-In Footer -->
-
-    <footer id="signinfooter">
+    <footer id="signoutfooter">
         <div class="container" id="foot-container">
             <div class="row">
                 <div class="col-4">
@@ -115,7 +105,6 @@
             </div>
         </div>
     </footer>
-
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>

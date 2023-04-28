@@ -16,6 +16,69 @@ body {
     background-color: rgb(75, 197, 245);
 }
 
-footer {
-    margin-bottom: 0;
+#signinfooter {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+#mapimg1 {
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+}
+
+#footer-list {
+    list-style-type: none;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+#footer-locations {
+    list-style-type: none;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+#signoutfooter {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+#mapimg2 {
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+}
+
+#mainpagefooter {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+#pricingpagefooter {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+#aboutpagefooter {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
 }
